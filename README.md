@@ -3,7 +3,7 @@
 ## Description
 This is a command line application that generates a svg logo based on user input. The user can choose the color, shape, and initials of the logo.
 ## Demo Video
-[Click Me!](https://youtu.be/xgaUtIh4rio)
+[Click Me!](https://youtu.be/25SGwMWFRqA)
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
