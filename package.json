@@ -1,0 +1,20 @@
+{
+    "name": "svg-logo-maker",
+    "version": "1.0.0",
+    "description": "A simple SVG logo maker",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "jest"
+    },
+    "author": {
+     "name": "Harrison Miner"  
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "jest": "^24.9.0"
+    },
+    "dependencies": {
+        "inquirer": "8.2.4"
+    }
+}
