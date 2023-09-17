@@ -24,13 +24,14 @@ const questions = [
     },
 ];
 
+// This function uses inquirer to prompt the user for input
 function createShape() {
     inquirer.prompt(questions).then((answers) => {
         const { color, shape, initials } = answers;
-        
         let shapeObj;
         let x;
         let y;
+        // This switch statement determines which shape to create and where to place the initials
         switch (shape) {
             case 'Triangle':
                 x = 147;
@@ -58,12 +59,12 @@ const svgTemplate = `
     <text x="${x}" y="${y}" font-size="60" text-anchor="middle" fill="white">${initials}</text>
 </svg>
 `;
-
+        // This writes the SVG template to a file with the users input
         fs.writeFile(`${shape}Logo.svg`, svgTemplate, (err) => {
             if (err) throw err;
             console.log("Looks like we've got ourselves a 'picture-perfect' creation!");
         });
     });
 }
-
+// This calls the createShape function
 createShape();

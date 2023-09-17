@@ -1,7 +1,9 @@
 # SVG Logo Generator
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ## Description
-This is a command line application that generates a svg logo based on user input. The user can choose the color, shape, and initials of the logo. 
+This is a command line application that generates a svg logo based on user input. The user can choose the color, shape, and initials of the logo.
+## Demo Video
+[Click Me!](https://youtu.be/xgaUtIh4rio)
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
